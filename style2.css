@@ -285,3 +285,10 @@ p {
 .nav-link:hover:after {
     width: 100%;
 }
+
+@media (max-width: 576px) {
+
+    .nav-item:last-child {
+        padding-bottom: 10px;
+    }
+}
